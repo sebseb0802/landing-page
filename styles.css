@@ -70,3 +70,63 @@ ul {
     border-radius: 5px;
     box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
+
+.information {
+    display: flex;
+    flex-direction: column;
+    padding: 50px 180px;
+    align-items: center;
+}
+
+.information-header {
+    font-size: 36px;
+    color: #1f2937;
+    font-weight: 900;
+    margin-bottom: 50px;
+}
+
+.information-image {
+    width: 150px;
+    height: 150px;
+    border: 4px #3882f6 solid;
+    border-radius: 5px;
+}
+
+.information-text {
+    font-size: 18px;
+    color: grey;
+    text-align: center;
+}
+
+.information-items {
+    display: flex;
+    gap: 70px;
+}
+
+.information-item {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 125px;
+}
+
+.quote {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #e5e7eb;
+    padding: 100px 270px;
+}
+
+.quote-text {
+    font-size: 36px;
+    font-style: italic;
+    color: #1f2937
+}
+
+.quote-byline {
+    font-weight: 700;
+    font-size: 24px;
+    align-self: flex-end;
+}
