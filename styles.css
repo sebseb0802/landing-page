@@ -169,3 +169,13 @@ ul {
     padding: 5px 20px;
     font-weight: 600;
 }
+
+.footer {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    background-color: #1f2937;
+    color: #f9faf8;
+    padding: 30px;
+}
