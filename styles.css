@@ -90,6 +90,7 @@ ul {
     height: 150px;
     border: 4px #3882f6 solid;
     border-radius: 5px;
+    box-shadow: 0 4px 8px 0 rgba(0, 0, 0, 0.2), 0 6px 20px 0 rgba(0, 0, 0, 0.19);
 }
 
 .information-text {
@@ -129,4 +130,42 @@ ul {
     font-weight: 700;
     font-size: 24px;
     align-self: flex-end;
+}
+
+.call-to-action {
+    padding: 100px 180px;
+}
+
+.call-container {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 40px 100px;
+    background-color: #3882f6;
+    border-radius: 5px;
+}
+
+.call-left-side {
+    display: flex;
+    flex-direction: column;
+}
+
+.call-heading {
+    font-weight: 700;
+    font-size: 24px;
+    color: #f9faf8;
+}
+
+.call-body {
+    font-size: 18px;
+    color: #f9faf8;
+}
+
+.call-signup {
+    background-color: #f9faf8;
+    color: #3882f6;
+    border-radius: 5px;
+    border: none;
+    padding: 5px 20px;
+    font-weight: 600;
 }
